@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-popup {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(16, 16, 16, 0.9);
+    padding: 100px;
+    width: 100vw;
+    object-fit: cover;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
